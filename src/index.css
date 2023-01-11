@@ -2,12 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
 
+body{
+    font-family: 'Arimo', sans-serif;
+}
 
 .bg-ktp-blue{
-    /* width: 9cm;
-    height: 5cm; */
-    object-fit: cover;
-    background-image: url('/public/media/bg-blue.jpg') !important;
+    /* width: 900px;
+    height: 450px; */
+    background-image: url('/public/media/bg-blue.png') !important;
     background-repeat: no-repeat;
+}
+
+@media print {
+    .offPrint {
+     display:none;
+   }
+   /* .bg-ktp-blue img {
+    display: inline;
+   } */
+   /* .bg-ktp-blue::before{
+    content:url('/public/media/bg-blue.png')
+   }
+    */
+    * {
+        -webkit-print-color-adjust: exact;
+    }
+   #content{
+    z-index: 999;
+    /* position: fixed; */
+   }
 }
