@@ -3,11 +3,15 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Epilogue', sans-serif;
 }
 
+.template-generator{
+    font-family: 'Arimo', sans-serif;
+}
 .bg-ktp-blue{
     /* width: 900px;
     height: 450px; */
@@ -33,4 +37,40 @@ body{
     z-index: 999;
     /* position: fixed; */
    }
+}
+
+
+input {
+    display: none;
+}
+/* input + label {
+    display: fixed;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+} */
+input + label:after {
+    content: "\f040";
+    font-family: 'FontAwesome';
+    font-size: 12px;
+    color: #757575;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: -74px;
+    text-align: center;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 512px;
+    width: 24px;
+    height: 24px;
+    padding-top: 3px;
+    cursor: pointer;
 }
