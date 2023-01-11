@@ -83,7 +83,7 @@ export default function BackgroundBiru() {
           </div>
         </div>
       </AnimatedPage>
-      <Toast />
+      {/* <Toast /> */}
       <FloatBtn />
     </div>
   )
