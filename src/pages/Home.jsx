@@ -3,7 +3,7 @@ import AnimatedPage from './utils/AnimatedPage'
 
 export default function Home() {
   return (
-    <div className='container mx-auto bg-white max-h-screen mb-24'>
+    <div className='container mx-auto bg-white h-screen mb-24'>
         <AnimatedPage>
             <div className='bg-amber-100 grid place-items-center mt-12 rounded-3xl'>
                 <div className='flex items-center xl:px-32 lg:px-32 md:px-12 sm:px-12 xs:px-6 xl:py-16 lg:py-16 md:py-8 sm:py-6 xs:py-12 gap-x-4 xl:flex-row xs:flex-col sm:flex-col'>
@@ -27,8 +27,8 @@ export default function Home() {
                 <a href='/bg-biru' >
                     <img className='object-fit' src='media/templates/bg-blue.png' />
                 </a>
-                <a  >
-                    <img className='object-fit opacity-25 cursor-not-allowed' src='media/templates/bg-blue.png' />
+                <a href='/bg-merah' >
+                    <img className='object-fit' src='media/templates/bg-red.png' />
                 </a>
                 <a  >
                     <img className='object-fit opacity-25 cursor-not-allowed' src='media/templates/bg-blue.png' />
