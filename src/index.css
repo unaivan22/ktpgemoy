@@ -22,6 +22,10 @@ body{
     background-image: url('/public/media/bg-red.png') !important;
     background-repeat: no-repeat;
 }
+.bg-sim{
+    background-image: url('/public/media/bg-sim.png') !important;
+    background-repeat: no-repeat;
+}
 
 @media print {
     .offPrint {

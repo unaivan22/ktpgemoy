@@ -30,8 +30,8 @@ export default function Home() {
                 <a href='/bg-merah' >
                     <img className='object-fit' src='media/templates/bg-red.png' />
                 </a>
-                <a  >
-                    <img className='object-fit opacity-25 cursor-not-allowed' src='media/templates/bg-blue.png' />
+                <a href='/bg-sim' >
+                    <img className='object-fit' src='media/templates/bg-sim.png' />
                 </a>
             </div>
         </AnimatedPage>
