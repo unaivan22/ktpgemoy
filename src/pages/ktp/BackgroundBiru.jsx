@@ -3,10 +3,12 @@ import FloatBtn from '../utils/FloatBtn'
 import ChangeImagesrc from '../utils/ChangeImagesrc'
 import AnimatedPage from '../utils/AnimatedPage'
 import Toast from '../utils/Toast'
+import BackArrow from '../utils/BackArrow'
 
 export default function BackgroundBiru() {
   return (
     <div className='template-generator mx-auto padding-10mm bg-transparent grid place-items-center h-screen'>
+      <BackArrow />
       <AnimatedPage>
         <div className='bg-ktp-blue bg-contain bg-center mx-auto h-72 w-96 aspect-video relative xl:scale-175 lg:scale-175 md:scale-125 sm:scale-110 xs:scale-110' id='content'>
           <section className='px-6 pt-8'>
