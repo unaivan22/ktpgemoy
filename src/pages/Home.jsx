@@ -4,34 +4,30 @@ import AnimatedPage from './utils/AnimatedPage'
 export default function Home() {
   return (
     <div className='container mx-auto bg-white h-screen mb-24'>
+        <img className='absolute left-0 top-0 w-56' src='media/home/sun.gif' />
         <AnimatedPage>
-            <div className='bg-amber-100 grid place-items-center mt-12 rounded-3xl'>
-                <div className='flex items-center xl:px-32 lg:px-32 md:px-12 sm:px-12 xs:px-6 xl:py-16 lg:py-16 md:py-8 sm:py-6 xs:py-12 gap-x-4 xl:flex-row xs:flex-col sm:flex-col'>
-                    <div>
-                        <h1 className='xl:text-6xl lg:text-6xl md:text-5xl sm:text-4xl xs:text-4xl font-medium leading-tight'>Buat <span className='font-bold'>KTP</span> si <span className='font-bold'>Gemoy</span> Dalam Sekejap!</h1>
-                        <p className='text-gray-600 font-light mt-4'>Pilih template dibawah ini ya</p>
-                        <div className="relative rounded-xl overflow-auto xl:pt-12 lg:pt-12 md:pt-12 sm:p-8 xs:p-8">
-                            <div className="flex justify-center">
-                                <div className="animate-bounce bg-gray-100 p-2 w-10 h-10 ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center">
-                                <svg className="w-6 h-6 text-gray-600" fill="none" strokeLinecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-                                </svg>
-                                </div>
-                            </div>
-                        </div>
+            <div className='grid place-items-center mt-12 rounded-3xl py-32'>
+                <div className='flex flex-col items-center text-center space-y-6 relative'>
+                    <h1 className='font-base text-5xl z-50'>Buat KTP si Gemoy Dalam Sekejap!</h1>
+                    <a href='https://github.com/unaivan22/ktpgemoy' class=" z-50 bg-rose-100 hover:bg-rose-200 text-rose-500 font-normal text-lg py-3 px-6 rounded-full inline-flex items-center">
+                        <span>Clone on Github &#8594;</span>
+                    </a>
+                    <img className='w-60' src='media/home/arrowmultiples.gif'/>
+                    <div className='absolute top-32 flex justify-between w-full 2xl:visible xl:visible md:visible sm:invisible xs:invisible'>
+                        <img className='w-52' src='media/home/star.gif'/>
+                        <img className='w-52' src='media/home/string0.gif'/>
                     </div>
-                    <img className='max-h-80 rounded-full xl:scale-175 lg:scale-175 md:scale-125 sm:scale-110 xs:scale-110' src='/media/gemoyclub.png' />
                 </div>
             </div>
             <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 mt-12 gap-6'>
                 <a href='/bg-biru' >
-                    <img className='object-fit' src='media/templates/bg-blue.png' />
+                    <img className='object-fit w-md' src='media/home/ktpBiru.png' />
                 </a>
                 <a href='/bg-merah' >
-                    <img className='object-fit' src='media/templates/bg-red.png' />
+                    <img className='object-fit' src='media/home/ktpMerah.png' />
                 </a>
                 <a href='/bg-sim' >
-                    <img className='object-fit' src='media/templates/bg-sim.png' />
+                    <img className='object-fit' src='media/home/simUmum.png' />
                 </a>
             </div>
         </AnimatedPage>
