@@ -12,6 +12,12 @@ body{
     overflow-x: hidden !important;
 }
 
+#mainHome{
+    max-width: 100vw !important;
+    width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
 .template-generator{
     font-family: 'Arimo', sans-serif;
 }
@@ -84,4 +90,8 @@ input + label:after {
     height: 24px;
     padding-top: 3px;
     cursor: pointer;
+}
+
+.mobileHome::-webkit-scrollbar {
+    display: none;
 }
