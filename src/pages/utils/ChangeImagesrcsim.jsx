@@ -19,7 +19,7 @@ window.onload = async () => {
   return (
     <div className='relative'>
         <input className='top-0 right-0 offPrint' type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
-        <label className='offPrint' htmlFor="imageUpload"></label>
+        <label data-html2canvas-ignore="true" className='offPrint' htmlFor="imageUpload"></label>
         <img id='avatar' className='h-24 w-20 object-cover rounded' src='media/models/hasan.jpg'  />
     </div>
   )
