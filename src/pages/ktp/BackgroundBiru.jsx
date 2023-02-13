@@ -4,16 +4,27 @@ import ChangeImagesrc from '../utils/ChangeImagesrc'
 import AnimatedPage from '../utils/AnimatedPage'
 import Toast from '../utils/Toast'
 import BackArrow from '../utils/BackArrow'
+import Tourguide from "tourguidejs";
 
 export default function BackgroundBiru() {
+
+//   var tourguide = new Tourguide();
+// function startTour() {
+// 	tourguide.start();
+// }
+// var tourbutton = document.getElementById("tourbutton");
+// tourbutton.addEventListener("click", startTour);
+
+
   return (
     <div className='template-generator mx-auto padding-10mm bg-transparent grid place-items-center h-screen'>
       <BackArrow />
       <AnimatedPage>
+        <a id='tourbutton'>start</a>
         <div className='bg-ktp-blue bg-contain bg-center mx-auto h-72 w-96 aspect-video relative xl:scale-175 lg:scale-175 md:scale-125 sm:scale-110 xs:scale-110' id='content'>
           <section className='px-6 pt-8'>
               <div className='grid grid-cols-1 w-full text-center mb-2 leading-tight'>
-                <p className='font-bold text-xs label-content uppercase'>Provinsi <span contentEditable="true">Jawa Timur</span></p>
+                <p className='font-bold text-xs label-content uppercase' data-tour="step: 1; title: Your cart; content: Example cart description text displays cart description">Provinsi <span contentEditable="true">Jawa Timur</span></p>
                 <p className='font-bold text-xs label-content uppercase' contentEditable="true">Kabupaten Madiun</p> 
               </div>
               <div className='grid grid-cols-4'>

@@ -90,7 +90,7 @@ export default function Home() {
                             </div>
                         </div>
                         <h1 className='font-light 2xl:text-3xl xl:text-3xl md:text-3xl sm:text-2xl xs:text-2xl z-50 pt-24'>Kalau ada peluang, kolaborasi yuk</h1>
-                        <a href='https://dinivannendragunawan.vercel.app/' target='_blank' class=" z-50 bg-rose-100 hover:bg-rose-200 text-rose-500 font-normal text-lg py-3 px-6 rounded-full inline-flex items-center">Hai Una, Aku Ada Project Nih!                    </a>
+                        <a href='mailto:dinivannendragunawan@gmail.com' class=" z-50 bg-rose-100 hover:bg-rose-200 text-rose-500 font-normal text-lg py-3 px-6 rounded-full inline-flex items-center">Hai Una, Aku Ada Project Nih!                    </a>
                         <img className='w-60 -translate-y-8' src='media/home/arrowmultiples.gif'/>
                         <div className='absolute top-80 flex justify-between w-full 2xl:visible xl:visible md:visible sm:invisible xs:invisible'>
                             <img className='w-52' src='media/home/spiral.gif'/>
