@@ -5,6 +5,7 @@ import { GoMarkGithub } from 'react-icons/go'
 import { useNavigate } from 'react-router-dom';
 import html2canvas from 'html2canvas';
 import { saveAs } from 'file-saver';
+import { Walktour } from 'walktour';
 
 export default function FloatBtn() {
   function print(){
@@ -40,6 +41,11 @@ export default function FloatBtn() {
                 <IoImage size={32} />
                 <span className='ml-2'>Save as Image</span>
             </a>
+            <Walktour
+              steps={[
+                {selector: "#walktour", title: "Edit Text", description: "Tap or click on any text for edit"}
+              ]}
+            />
         </div>
     </div>
   )

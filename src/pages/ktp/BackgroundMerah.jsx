@@ -17,7 +17,7 @@ export default function BackgroundMerah() {
                 <p className='font-bold text-xs label-content uppercase' contentEditable="true">Kabupaten Madiun</p> 
               </div>
               <div className='grid grid-cols-4'>
-                <p className='font-bold text-xs label-content col-span-1'>NIK</p>
+                <p className='font-bold text-xs label-content col-span-1' id='walktour'>NIK</p>
                 <p className='font-bold text-xs label-content col-span-3 focus-visible:ring-amber-200' > <span>:</span> <span contentEditable="true">213123123123123123</span></p> 
               </div>
 

@@ -23,7 +23,7 @@ export default function BackgroundSim() {
             <div className='pl-6 col-span-3'>
                 <div className='grid grid-cols-9'>
                   <p className='font-bold text-ms label-content col-span-1'>1</p>
-                  <p className='font-bold text-ms label-content col-span-8 focus-visible:ring-amber-200 uppercase' contentEditable="true">Hasan Santoso</p> 
+                  <p className='font-bold text-ms label-content col-span-8 focus-visible:ring-amber-200 uppercase' contentEditable="true" id='walktour'>Hasan Santoso</p> 
                 </div>
                 <div className='grid grid-cols-9'>
                   <p className='font-bold text-ms label-content col-span-1'>2</p>
